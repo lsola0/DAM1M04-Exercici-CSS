@@ -1,0 +1,8 @@
+p {
+  color: blue;
+  font-size: 16px;
+}
+a:hover {
+    border-bottom: solid;
+    text-decoration: none;
+}
