@@ -1,8 +1,70 @@
-p {
-  color: blue;
-  font-size: 16px;
+#t1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: hotpink;
+}
+
+#t2{
+  font-size: 24px;
+  text-decoration: underline;
+  color: rgb(6, 6, 95);
+}
+.t3 {
+  font-size: 14px;
+  text-decoration: none;
+  color:rgb(3, 3, 190) ;
 }
 a:hover {
     border-bottom: solid;
-    text-decoration: none;
+    text-decoration: underline;
+}
+.paragraf {
+  color:cornflowerblue;
+  font-size: 16px;
+}
+.contingut{
+  font-size: 19px;
+  color: rgb(6, 6, 95);
+}
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+ol > li:first-child {
+  font-weight:bold;
+  color:darkcyan
+}
+ol > li:last-child {
+  font-weight: bold;
+  color: green
+}
+ol > li:nth-child(even) {
+  font-weight:bold;
+  color:rgb(138, 194, 53);
+}
+ol > li:nth-child(3) {
+  font-weight:bold;
+  color:rgb(14, 110, 82);
+}
+ul > li:first-child {
+  font-weight:bold;
+  color:rgb(83, 31, 226)
+}
+ul > li:last-child {
+  font-weight: bold;
+  color: rgb(250, 218, 114)
+}
+#base > li {
+  color:rgb(117, 70, 161);
+}
+p::after {
+  content: "<=";
+  color: hotpink;
+}
+p::before {
+  content: "=>";
+  color: hotpink;
 }
