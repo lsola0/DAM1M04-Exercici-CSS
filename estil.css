@@ -39,7 +39,7 @@ ol > li:first-child {
 }
 ol > li:last-child {
   font-weight: bold;
-  color: green
+  color: green;
 }
 ol > li:nth-child(even) {
   font-weight:bold;
