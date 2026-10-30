@@ -13,7 +13,7 @@
 .t3 {
   font-size: 14px;
   text-decoration: none;
-  color:rgb(3, 3, 190) ;
+  color:rgb(3, 3, 190);
 }
 a:hover {
     border-bottom: solid;
@@ -35,11 +35,10 @@ a:hover {
 }
 ol > li:first-child {
   font-weight:bold;
-  color:darkcyan
+  color:darkcyan;
 }
 ol > li:last-child {
   font-weight: bold;
-
   color: green;
 }
 ol > li:nth-child(even) {
@@ -52,11 +51,11 @@ ol > li:nth-child(3) {
 }
 ul > li:first-child {
   font-weight:bold;
-  color:rgb(83, 31, 226)
+  color:rgb(83, 31, 226);
 }
 ul > li:last-child {
   font-weight: bold;
-  color: rgb(250, 218, 114)
+  color: rgb(250, 218, 114);
 }
 #base > li {
   color:rgb(117, 70, 161);
