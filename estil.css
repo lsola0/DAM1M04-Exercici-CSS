@@ -57,7 +57,7 @@ ul > li:last-child {
   font-weight: bold;
   color: rgb(250, 218, 114);
 }
-#base > li {
+#base > li:nth-child(even) {
   color:rgb(117, 70, 161);
 }
 p::after {
